@@ -13,7 +13,6 @@
 
 **A futuristic, full-stack browser-based desktop operating system featuring multi-window multitasking, virtual file system, integrated terminal, AI copilot, rich productivity suite, and a cyberpunk aesthetic.**
 
-[Live Local Server](http://localhost:3000) • [Getting Started](#-getting-started) • [Applications](#-built-in-applications) • [Architecture](#-architecture) • [API Reference](#-api-endpoints)
 
 </div>
 
