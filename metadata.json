@@ -1,0 +1,6 @@
+{
+  "name": "Nexus OS — Browser Operating System",
+  "description": "A futuristic full-stack web-based desktop operating system with multi-window multitasking, file explorer, code editor, terminal, settings, and sci-fi aesthetic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
