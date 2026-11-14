@@ -84,8 +84,7 @@ nexus-os/
 │   │   ├── taskbar/          # Taskbar, Start Menu, System Tray, Search Flyout
 │   │   └── window/           # Window frame, title bar, controls, and window manager
 │   ├── store/                # Modular Zustand stores (windows, auth, settings, etc.)
-│   └── App.tsx               # Main OS layout container
-└── test_suite.mjs            # Comprehensive automated integration test suite
+└── tests/                    # Automated integration and regression test suites
 ```
 
 ---
