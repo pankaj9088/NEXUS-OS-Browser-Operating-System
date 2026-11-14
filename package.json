@@ -9,9 +9,10 @@
     "start": "tsx server.ts",
     "build": "vite build",
     "preview": "vite preview",
-    "clean": "node -e \"import('fs').then(fs => { fs.rmSync('dist', { recursive: true, force: true }); fs.rmSync('server.js', { force: true }); })\"",
     "lint": "tsc --noEmit",
-    "test": "node tests/test_suite.mjs"
+    "test": "node test_suite.mjs",
+    "test:api": "node api_verification_test.mjs",
+    "test:integration": "node integration_test.mjs"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",

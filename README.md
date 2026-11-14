@@ -84,7 +84,10 @@ nexus-os/
 │   │   ├── taskbar/          # Taskbar, Start Menu, System Tray, Search Flyout
 │   │   └── window/           # Window frame, title bar, controls, and window manager
 │   ├── store/                # Modular Zustand stores (windows, auth, settings, etc.)
-└── tests/                    # Automated integration and regression test suites
+│   └── App.tsx               # Main OS layout container
+├── api_verification_test.mjs # Backend API endpoints verification suite
+├── integration_test.mjs      # Frontend-to-backend integration test suite
+└── test_suite.mjs            # Comprehensive automated security & regression test suite
 ```
 
 ---

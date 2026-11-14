@@ -16,7 +16,7 @@ function record(name, pass, detail = '') {
 }
 
 async function run() {
-  console.log('=== Starting Phase 6: Frontend-to-Backend Integration Verification ===\n');
+  console.log('=== Starting Frontend-to-Backend Integration Verification Suite ===\n');
 
   const timestamp = Date.now();
   const userA_email = `nexus_user_a_${timestamp}@example.com`;
